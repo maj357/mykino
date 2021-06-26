@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>КиноМозг</title>
+	<meta name="description" content="КиноМозг - портал кино">
+	<meta name="keywords" content="Фильмы, фильмы онлайн, hd фильмы">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="header">
+				<div class="logo">
+					<div class="logo_text">
+						<h1><a href="index.html">КиноМозг</a></h1>
+						<h2>Корманный Голливуд</h2>
+					</div>
+				</div>
+
+				<div class="menubar">
+
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="films.html">Фильмы</a></li>
+						<li><a href="#">Сериалы</a></li>
+						<li><a href="rating.html">Рейтинг фильмов</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+					
+		</div>
+
+
+		<div class="site_content">
+
+			<div class="sidebar_container">
+
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="поиск"/>
+						<input type="submit" class="btn" value="Найти"/>
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="логин"/>
+						<input type="password" name="password_field" placeholder="пароль"/>
+						<input type="submit" class="btn" value="Вход"/>
+						<div class="lables_passreg_text">
+							<a href="#">забыли пароль?</a> | <a href="#">Регистрация</a>
+						</div>
+
+					</form>		
+				</div>	
+
+
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span><strong>07.04.2021</strong></span>
+					<p>Мы запустили расширенный поиск</p>
+					<a href="#"><ins><small>читать</small></ins></a>
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li><a href="nachalo.html">Начало</a><span class="raiting_sidebar">9.4</span></li>
+						<li><a href="darkknight.html">Темный рыцарь</a><span class="raiting_sidebar">9.8</span></li>
+						<li><a href="lotr.html">Властелин колец</a><span class="raiting_sidebar">9.7</span></li>
+						<li><a href="harry.html">Гарри Поттер</a><span class="raiting_sidebar">9.3</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content">
+				<h1>Темный рыцарь</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DX5KvBe7wpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="info_film_page">
+					<span class="label">рейтинг: </span><span class="value">9.8 / 10</span>
+					<span class="label">год: </span><span class="value">2008</span>
+					<span class="label">режиссер: </span><span class="value">Кристофер Нолан</span>
+				</div>
+
+				<hr>
+
+				<h2>Темный рыцарь</h2>
+				<div class="decription_film">
+					<img src="assets/img/darkknight.jpg" width="130" height="190" alt="Начало">
+					<h6>Герой фильма Брюс Уэйн, он же Бэтмен, собирается покончить с тайной жизнью, понимая, что город на самом деле нуждается не в «Темном рыцаре», находящемся по ту сторону закона, а в настоящем, явном герое, которым, по его мнению, может стать непоколебимый, и жаждущий расправы с преступностью прокурор Харви Дент. В это время над Готэмом нависает очередная угроза в лице преступника по прозвищу Джокер. Жизнь Уэйна и Дента меняется кардинальным образом, ведь новый враг очень хитер и умен, и способен выпустить наружу темное нутро обоих героев.</h6>
+				</div>
+
+				<hr>
+				<h2>Отзывы</h2>
+
+				<div class="reviews">
+
+					<div class="review_name">
+						Мия
+					</div>
+					<div class="review_text">
+							Зачет!)
+					</div>
+				
+					<div class="review_name">
+						Антонинка
+					</div>
+					<div class="review_text">
+							АГОНЬ вся трилогия! Нолан Рулит!
+					</div>
+
+				</div>
+		
+				<div class="send">
+
+					<form method="post" action="#" id="review"></form>
+
+						<input type="text" name="review_name" placeholder="ваше имя">
+						<textarea name="review_text"></textarea>
+						<input type="submit" class="btn" value="отправить">
+				
+				</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<p>
+			<a href="index.html">Главная</a> |
+			<a href="films.html">Фильмы</a> |
+			<a href="#">Сериалы</a> |
+			<a href="rating.html">Рейтинг фильмов</a> |
+			<a href="contacts.html">Контакты</a> |
+		</p>
+		<p>&copy Maj inc 2021</p>
+
+	</div>
+
+	</div>
+	
+</body>
+</html>
